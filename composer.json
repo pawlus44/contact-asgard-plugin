@@ -1,6 +1,6 @@
 {
 	"name": "pawlus44/contact",
-	"description": "",
+	"description": "Contact module to asgardcms",
     "type": "asgard-module",
     "require": {
         "php": ">=5.4",
