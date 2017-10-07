@@ -38,5 +38,6 @@
             "type": "git",
             "reference": "master"
         }
-    }
+    },
+    "license": "MIT"
 }
