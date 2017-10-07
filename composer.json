@@ -34,7 +34,7 @@
         "name": "pawlus44/contact-asgard-plugin",
         "version": "dev-master",
         "source": {
-            "url": "https://github.com/pawlus44/contact-asgard-plugin.git,
+            "url": "git://github.com/pawlus44/contact-asgard-plugin.git",
             "type": "git",
             "reference": "master"
         }
