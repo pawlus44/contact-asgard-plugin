@@ -1,6 +1,6 @@
 {
-    "name": "pawlus44/contact",
-    "description": "Contact module to asgardcms",
+	"name": "pawlus44/contact",
+	"description": "Contact module to asgardcms",
     "type": "asgard-module",
     "require": {
         "php": ">=5.4",
@@ -21,14 +21,17 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "license": "MIT",
-    "authors": {
-        "name": "Pawel Poreba",
-        "email": "pawelporeba44@gmail.com",
-        "role": "Developer"
-    },
-    "autoload": {
-        "psr-4": {
-            "Modules\\Contact\\": ""
-        }
-    }
+	"authors": [
+		{
+			"name": "Pawel Poreba",
+			"email": "pawelporeba44@gmail.com",
+            "role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Modules\\Contact\\": ""
+		}
+	}
+
 }
