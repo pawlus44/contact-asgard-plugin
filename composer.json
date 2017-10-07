@@ -18,7 +18,6 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Pawel Poreba",
@@ -35,7 +34,7 @@
         "name": "pawlus44/contact-asgard-plugin",
         "version": "dev-master",
         "source": {
-            "url": "https://github.com/pawlus44/contact-asgard-plugin.git",
+            "url": "https://github.com/pawlus44/contact-asgard-plugin.git,
             "type": "git",
             "reference": "master"
         }
