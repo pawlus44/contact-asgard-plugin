@@ -36,7 +36,7 @@ class PublicController extends BasePublicController
     	$input['status'] = 1;
         $contact= $this->contact->create($input);
 
-        Mail::send('emails.contact', ['contact' => $contact], function ($m){
+        Mail::send('contact::emails.contact', ['contact' => $contact], function ($m){
             $m->to(env('EMAIL_DEFAULT_FROM_ADDRESS'), env('EMAIL_DEFAULT_FROM_NAME'))->subject('Formularz kontaktowy - hcka.pl');
         });
 
